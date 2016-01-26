@@ -32,7 +32,7 @@ unsigned char (*cmd_func[MAX_CMD_FUNC])(unsigned char, unsigned char, unsigned c
 void cmdError(void);
 
 extern pidPos pidObjs[NUM_PIDS];
-extern EncObj encPos[NUM_ENC];
+//extern EncObj encPos[NUM_ENC];
 extern volatile CircArray fun_queue;
 
 /*-----------------------------------------------------------------------------
